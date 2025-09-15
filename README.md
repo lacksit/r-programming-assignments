@@ -9,5 +9,5 @@ Repository for R Programming Assignments
 
 # Module 3 Assignment Analyzing 2016 data "Poll" Data in R
 -Blog: https://alexisrjournal.blogspot.com/2025/09/module-3-assignment-3-analyzing-2016.html
--Script: polls
+-[Polls Script] : https://github.com/lacksit/r-programming-assignments/blob/main/polls
 

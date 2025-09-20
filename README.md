@@ -11,3 +11,6 @@ Repository for R Programming Assignments
 -Blog: https://alexisrjournal.blogspot.com/2025/09/module-3-assignment-3-analyzing-2016.html
 -[Polls Script] : https://github.com/lacksit/r-programming-assignments/blob/main/polls
 
+# Module 4: Visualizing and Interpreting Hospital Patient Data
+-Blog: https://alexisrjournal.blogspot.com/2025/09/assignment-4-visualizing-and.html
+-Script

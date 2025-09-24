@@ -14,3 +14,7 @@ Repository for R Programming Assignments
 # Module 4: Visualizing and Interpreting Hospital Patient Data
 -Blog: https://alexisrjournal.blogspot.com/2025/09/assignment-4-visualizing-and.html
 -[blood pressure]: https://github.com/lacksit/r-programming-assignments/blob/main/bloodpressure
+
+# Module 5: Matrix Algebra in R
+-Blog: https://alexisrjournal.blogspot.com/2025/09/assignment-5-matrix-algebra-in-r.html
+-[matrix]: https://github.com/lacksit/r-programming-assignments/blob/main/matrix

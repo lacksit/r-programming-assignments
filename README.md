@@ -23,3 +23,7 @@ Repository for R Programming Assignments
 -Blog: https://alexisrjournal.blogspot.com/2025/10/assignment-6-matrix-operations-and.html
 -[matrixbind] : https://github.com/lacksit/r-programming-assignments/blob/main/matrixbind
 
+# Model 7: Exploring R’s Object Oriented Systems (S3 &amp; S4)
+-Blog: https://alexisrjournal.blogspot.com/2025/10/assignment-7-exploring-rs.html
+-[objectsystem] : https://github.com/lacksit/r-programming-assignments/blob/main/objectsystem
+

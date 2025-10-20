@@ -1,0 +1,12 @@
+student <- read.csv(file.choose(), stringsAsFactors = FALSE)
+names(student); head(student)
+library(plyr)
+gender_mean <- ddply(student, .(Sex),
+                     summarise,
+                     GradeAverage = mean(Grade, na.rm = TRUE))
+write.table(gender_mean, "gender_mean.txt",
+            sep = "\t", row.names = FALSE)
+i_students <- subset(student, grepl("i", Name, ignore.case = TRUE))
+write.csv(i_students$Name, "i_students.csv",
+          row.names = FALSE, quote = FALSE)
+write.csv(i_students, "i_students_full.csv", row.names = FALSE)

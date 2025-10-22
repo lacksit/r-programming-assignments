@@ -30,3 +30,8 @@ Repository for R Programming Assignments
 # Module 8: Input/Output, String Manipulation, and the plyr Package
 -Blog: https://alexisrjournal.blogspot.com/2025/10/assignment-8-inputoutput-string.html
 -[inputoutput] : https://github.com/lacksit/r-programming-assignments/blob/main/inputoutput
+
+# Module 9: Visualization in R – Base Graphics, Lattice, and ggplot2
+-Blog: https://alexisrjournal.blogspot.com/2025/10/assignment-9-visualization-in-r-base.html
+-[visual] : https://github.com/lacksit/r-programming-assignments/blob/main/visual
+

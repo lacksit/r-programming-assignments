@@ -1,0 +1,41 @@
+data(sleep)
+head(sleep)
+
+plot(sleep$group, sleep$extra,
+     main = "Base: Extra Sleep by Group",
+     xlab = "Group (Drug Type)", ylab = "Extra sleep")
+
+hist(sleep$extra,
+     main = "Base: Distribution of Extra Sleep",
+     xlab = "Extra Sleep (hours)")
+
+
+library(lattice)
+
+
+bwplot(extra ~ factor(group),
+       data = sleep,
+       main = "Lattice: Extra Sleep by Group",
+       xlab = "Group", ylab = "Extra Sleep (hours)")
+
+
+xyplot(extra ~ ID | factor(group),
+       data = sleep,
+       main = "Lattice: Extra Sleep per Subject by Group",
+       xlab = "Subject ID", ylab = "Extra Sleep (hours)")
+
+library(ggplot2)
+
+ggplot(sleep, aes(x = ID, y = extra, color = factor(group))) +
+  geom_point(size = 3) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "ggplot2: Extra Sleep per Subject by Group",
+       x = "Subject ID", y = "Extra Sleep (hours)",
+       color = "Group")
+
+
+ggplot(sleep, aes(x = extra)) +
+  geom_histogram(binwidth = 0.5) +
+  facet_wrap(~group) +
+  labs(title = "ggplot2: Distribution of Extra Sleep by Group",
+       x = "Extra Sleep (hours)")

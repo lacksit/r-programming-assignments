@@ -1,0 +1,21 @@
+tukey.outlier <- function(v) {
+  qs  <- quantile(v, c(.25, .75), na.rm = TRUE)
+  iqr <- qs[2] - qs[1]
+  lower <- qs[1] - 1.5 * iqr
+  upper <- qs[2] + 1.5 * iqr
+  (v < lower) | (v > upper)
+}
+
+corrected_tukey <- function(x) {
+  outliers <- array(TRUE, dim = dim(x))
+  for (j in seq_len(ncol(x))) {
+    outliers[, j] <- outliers[, j] & tukey.outlier(x[, j])
+  }
+  outlier.vec <- logical(nrow(x))
+  for (i in seq_len(nrow(x))) {
+    outlier.vec[i] <- all(outliers[i, ])
+  }
+  outlier.vec
+}
+
+corrected_tukey(test_mat)

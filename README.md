@@ -35,6 +35,10 @@ Repository for R Programming Assignments
 -Blog: https://alexisrjournal.blogspot.com/2025/10/assignment-9-visualization-in-r-base.html
 -[visual] : https://github.com/lacksit/r-programming-assignments/blob/main/visual
 
+# Module 10: 
+-Blog: https://alexisrjournal.blogspot.com/2025/11/assignment-11-debugging-and-defensive.html
+-[debug]: https://github.com/lacksit/r-programming-assignments/blob/main/debug
+
 # Module 10: Building Your Own R Package
 -Blog: https://alexisrjournal.blogspot.com/2025/10/assignment-10-building-your-own-r.html
 -[repo]: https://github.com/lacksit/r-programming-assignments/blob/main/repo

@@ -43,3 +43,7 @@ Repository for R Programming Assignments
 -Blog: https://alexisrjournal.blogspot.com/2025/10/assignment-10-building-your-own-r.html
 -[repo]: https://github.com/lacksit/r-programming-assignments/blob/main/repo
 
+# Module 12: Introduction to R Markdown
+-Blog: https://alexisdatavisual.blogspot.com/2025/11/assignment-12-using-python-with.html
+-file:///C:/Users/alexi/OneDrive%20-%20University%20of%20South%20Florida/R%20Programming/Markdown.html
+
